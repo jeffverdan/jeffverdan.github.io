@@ -1,0 +1,51 @@
+#title, .subtitle {
+    font-family: Verdana, Tahoma, sans-serif;
+    color:black;
+    font-style: italic;  
+    margin-bottom:5px;
+    width: 99%;
+    border: 0;
+    padding: 10px;
+    background-color: rgb(231, 231, 231); 
+    }
+    
+    #title {
+        font-size: 36px;
+        margin-bottom:5px;
+        margin-top: 60px;
+        width: 99%;
+        border: 0;
+        padding: 10px;
+        background-color: rgb(211, 211, 211);
+        
+    }
+    
+    .img_perfil {
+        border: 10px solid rgb(255, 255, 255);
+        border-radius: 50%;
+        float: right;
+        margin-right: 30px;
+        width: 15%;
+    }
+    
+    .post {
+        font-family: Verdana, Tahoma, sans-serif;
+        margin-left: 5px;
+        padding: 10px;
+        line-height: 1.6;
+    }
+    ul {
+      font-family: Verdana, Tahoma, sans-serif;
+      list-style: none;
+    }
+    
+    ul li::before {
+      content: "\2022";
+      color: red;
+      font-weight: bold;
+      line-height: 1.6;
+      display: inline-block; 
+      width: 20px;
+      margin-left: -1em;
+      margin-bottom: auto;
+    }
