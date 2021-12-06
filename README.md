@@ -1,1 +1,0 @@
-# jeffverdan.github.io
