@@ -44,6 +44,7 @@
     }
   });
 
+  //Filtra as imagens usando o https://isotope.metafizzy.co/filtering.html
   $(".hover").mouseleave(function() {
     $(this).removeClass("hover");
   });
@@ -54,9 +55,6 @@
 
     let filter = function() {
       let type = $filterCheckboxes.filter(":checked").data("type") || "*";
-      if (type !== "*") {
-        type = '[data-type="' + type + '"]';
-      }
       $isotope.isotope({ filter: type });
     };
 
